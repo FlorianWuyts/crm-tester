@@ -58,8 +58,8 @@ app.get('/3cx-lookup', (req, res) => {
     // Send valid CRM response back to 3CX
     res.json({
         ContactId: "1",
-        FirstName: "Autotask",
-        LastName: "Account",
+        FirstName: "",
+        LastName: "",
         PhoneBusiness: formattedPhone,
         ContactUrl: autotaskUrl
     });
